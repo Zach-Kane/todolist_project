@@ -18,6 +18,11 @@ class TodoListTest < Minitest::Test
     @list.add(@todo3)
   end
 
+  # def teardown
+  #  # Teardown code: This method is called after each test case
+  #
+  # end
+
   def test_no_due_date
     assert_nil(@todo1.due_date)
   end
